@@ -1,0 +1,83 @@
+2019-08-02 01:15:11,657:INFO: Initializing tf session
+2019-08-09 11:01:35,514:INFO: Initializing tf session
+2019-08-09 11:01:37,305:INFO: Reloading the latest trained model...
+2019-08-09 11:01:37,305:INFO: Restoring parameters from /gpfs/hpchome/kermos/morf_disambig/results/softmax/estonian_myc_kv/emb_tag_sum/output/results/model.weights
+2019-08-09 18:04:11,569:WARNING: From /home/kermos/projects/test/seq2seq/model.py:39: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-08-09 18:04:11,592:WARNING: From /home/kermos/projects/test/base_model.py:188: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-08-09 18:04:12,856:WARNING: From /home/kermos/projects/test/base_model.py:207: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-08-09 18:04:12,857:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-08-09 18:04:12,902:WARNING: From /home/kermos/projects/test/base_model.py:223: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-09 18:04:12,905:WARNING: From /home/kermos/projects/test/base_model.py:228: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-09 18:04:12,906:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:464: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-09 18:04:13,154:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py:961: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-08-09 18:04:14,932:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:244: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-08-09 18:04:15,560:WARNING: From /home/kermos/projects/test/base_model.py:339: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+2019-08-09 18:06:21,490:WARNING: From /home/kermos/projects/test/base_model.py:85: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-08-09 18:06:21,501:WARNING: From /home/kermos/projects/test/base_model.py:188: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-08-09 18:06:22,711:WARNING: From /home/kermos/projects/test/base_model.py:207: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-08-09 18:06:22,712:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-08-09 18:06:22,736:WARNING: From /home/kermos/projects/test/base_model.py:223: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-09 18:06:22,738:WARNING: From /home/kermos/projects/test/base_model.py:228: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-09 18:06:22,738:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:464: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-09 18:06:22,958:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py:961: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2019-08-09 18:06:24,669:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:244: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-08-09 18:06:25,255:WARNING: From /home/kermos/projects/test/base_model.py:339: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+2019-08-09 18:06:26,090:WARNING: From /home/kermos/projects/test/rnn_util.py:72: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2019-08-09 18:06:26,091:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:507: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2019-08-09 18:06:26,645:WARNING: From /home/kermos/projects/test/softmax/model.py:213: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-08-09 18:06:27,521:WARNING: From /home/kermos/projects/test/softmax/model.py:244: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-08-09 18:06:27,524:WARNING: From /home/kermos/projects/test/base_model.py:359: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+2019-08-09 18:06:30,646:INFO: Initializing tf session
+2019-08-09 18:06:30,647:WARNING: From /home/kermos/projects/test/base_model.py:377: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-08-09 18:06:30,647:WARNING: From /home/kermos/projects/test/base_model.py:377: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-08-09 18:06:36,064:WARNING: From /home/kermos/projects/test/base_model.py:379: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2019-08-09 18:06:36,101:INFO: Reloading the latest trained model...
+2019-08-09 18:06:36,102:WARNING: From /home/kermos/miniconda3/envs/neuromorf/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-09 18:06:36,107:INFO: Restoring parameters from softmax/emb_tag_sum/output/results/model.weights

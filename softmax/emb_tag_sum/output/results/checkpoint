@@ -1,0 +1,2 @@
+model_checkpoint_path: "/gpfs/hpchome/kermos/morf_disambig/results/softmax/estonian_myc_kv/emb_tag_sum/output/results/model.weights"
+all_model_checkpoint_paths: "/gpfs/hpchome/kermos/morf_disambig/results/softmax/estonian_myc_kv/emb_tag_sum/output/results/model.weights"

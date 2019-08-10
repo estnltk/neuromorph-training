@@ -1,0 +1,17 @@
+
+    FULL TAG ACCURACY:
+    All words       : 0.9776554145718618
+    OOV words       : 0.9784394250513347
+    Vocabulary words: 0.9775596826477068
+
+    POS ACCURACY:
+    All words       : 0.989498044848775
+    OOV words       : 0.9891463772367263
+    Vocabulary words: 0.9895409853681251
+
+    MORPH ACCURACY:
+    All words       : 0.9800335168781422
+    OOV words       : 0.979026107362863
+    Vocabulary words: 0.9801565270340455
+
+    
