@@ -43,11 +43,15 @@ For models 3 and 4:
 Here's an example of a bash script for training and evaluating model 1:
 
 \#!/bin/bash
+
 set -e
 
 export DATA\_DIR=data
+
 export OUT\_DIR=softmax/emb\_tag\_sum/output
+
 export EMBEDDINGS_DIR=embeddings
 
 python softmax/scripts/train.py --config softmax/emb_tag_sum/config.py
+
 python softmax/scripts/evaluate.py --test --config softmax/emb\_tag\_sum/config.py
